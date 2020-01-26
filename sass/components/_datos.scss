@@ -1,0 +1,19 @@
+//varibales y tipos de datos
+$numero1: 20;
+$numero2: 22px;
+$numero3: 35.5;
+$numero4: 20s;
+$texto1: 'SASS';
+$texto2: none;
+$color1: red;
+$color2: rgb(0,0,255,0.5);
+$color3: #ab11cd;
+$boleano: true;
+$list1: 1px solid black;
+$lista2: valor1, valor2, valor3;
+$map: (
+    valor1: 2px,
+    valor2: solid,
+    valor3: red 
+);
+

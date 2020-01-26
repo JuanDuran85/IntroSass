@@ -1,11 +1,23 @@
 * {
   margin: 0px;
   padding: 0px;
+  list-style: none;
+  list-style-position: outside;
+  text-decoration: none;
+}
+
+nav {
+  background: rgba(0, 0, 255, 0.5);
+}
+
+section {
+  background: rgba(0, 0, 255, 0.5);
 }
 
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #e74117;
+  background: rgba(0, 0, 255, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */
