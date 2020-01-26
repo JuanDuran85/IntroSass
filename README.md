@@ -4,7 +4,8 @@ Ejemplos básicos usando Sass desde cero.
 ### Desventajas de CSS
 * No es un lenguaje de programación como tal.
 * Problemas con especificidad, cascadas y herencia cuando los proyectos son muy grandes.
-* Modularización
+* Modularización.
+* Las varibales de CSS vienen con limitaciones.
 
 ## SASS
 ### Ventajas de SASS
@@ -37,5 +38,19 @@ $ npm install -g sass
 $ sass --watch style.scss ../css/style.css
 ```
 
-* Se debe tener cuidado con la ubicación de los archivos, por lo tanto, se puede entrar a la carpeta de SASS y ejecutar la instrucción anterior desde esa carpeta e indicar la ubicación exacta del archivo de salida.  
+* Se debe tener cuidado con la ubicación de los archivos, por lo tanto, se puede entrar a la carpeta de SASS y ejecutar la instrucción anterior desde esa carpeta e indicar la ubicación exacta del archivo de salida. 
+
+### Características importantes de SASS
+* SASS posee distintos tipos de datos, como números, cadenas de texto, colores, boléanos, listas.
+* Las variables se inician con el símbolo de “$” más el nombre de la variable, posteriormente se escribe “:” para poder asignar el valor a la variable, no se debe usar el signo "="
+* Se puede usar @debug mas el nombre de la varibale para ver el valor de dicha variable.
+* En SASS las funciones son con “-” y no con “_”.
+* Se puede utilizar la instrucción type-of para saber el tipo de datos que posee una variable.
+* Los mapas son como un objeto en JavaScript, tienen clave y valor.
+* Se pueden anidar selectores facilmente mediante la tecnica nesting.
+
+
+
+
+
 
