@@ -1,18 +1,15 @@
 @import "components/reset";
 @import "components/datos";
 @import "components/nesting";
+@import "components/mixin";
 
-nav {
-    background: $color2;
-}
-
-section {
+.s1 {
     background: $color2;
 }
 
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(231, 65, 23);
+    color: rgb(247, 232, 229);
     @debug $numero1;
     @debug type-of($numero1);
     @debug $texto1;

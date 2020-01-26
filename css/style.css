@@ -16,17 +16,46 @@ nav li a {
   padding: 6px 12px;
 }
 
-nav {
+.btn {
+  display: block;
+  padding: 15px;
+  margin: auto;
+  color: #ab11cd;
+  width: 70%;
+  font-size: 35.5px;
+}
+.btn:hover {
   background: rgba(0, 0, 255, 0.5);
 }
+@media screen and (max-width: 600px) {
+  .btn {
+    background: rgba(17, 255, 0, 0.5);
+  }
+}
 
-section {
+.box {
+  width: 120px;
+  height: 120px;
+  background: rgba(17, 255, 0, 0.5);
+  -webkit-transition: width 5s;
+  transition: width 5s;
+}
+.box:hover {
+  width: 70%;
+}
+@media screen and (max-width: 596px) {
+  .box {
+    background: red;
+  }
+}
+
+.s1 {
   background: rgba(0, 0, 255, 0.5);
 }
 
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #e74117;
+  color: #f7e8e5;
   background: rgba(0, 0, 255, 0.5);
 }
 

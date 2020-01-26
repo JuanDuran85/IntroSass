@@ -48,8 +48,10 @@ $ sass --watch style.scss ../css/style.css
 * Se puede utilizar la instrucción type-of para saber el tipo de datos que posee una variable.
 * Los mapas son como un objeto en JavaScript, tienen clave y valor.
 * Se pueden anidar selectores facilmente mediante la tecnica nesting.
-* También se pueden usar mixins, los cuales, son trozos de códigos que se pueden reutilizar.
-
+* También se pueden usar mixin, los cuales, son trozos de códigos que se pueden reutilizar.
+* Para llamar un mixin se utiliza el @include. 
+* Igualmente se puede agregar dentro de un mixin el "&" para repetir el selector padre y se pueden agregar @media para trabajar con los distintos tamaños.
+* Al utilizar los maxin, se pueden enviar parametros como si se trabajara con una funcion culaquiera en JavaScript.
 
 
 
