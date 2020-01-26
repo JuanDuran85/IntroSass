@@ -48,6 +48,7 @@ $ sass --watch style.scss ../css/style.css
 * Se puede utilizar la instrucción type-of para saber el tipo de datos que posee una variable.
 * Los mapas son como un objeto en JavaScript, tienen clave y valor.
 * Se pueden anidar selectores facilmente mediante la tecnica nesting.
+* También se pueden usar mixins, los cuales, son trozos de códigos que se pueden reutilizar.
 
 
 
