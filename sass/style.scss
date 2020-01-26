@@ -2,9 +2,11 @@
 @import "components/datos";
 @import "components/nesting";
 @import "components/mixin";
+@import "components/ciclos";
 
 .s1 {
     background: $color2;
+    font-weight: 400;
 }
 
 h1 {

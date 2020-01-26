@@ -1,5 +1,6 @@
-   # Introducción a Sass
+# Introducción a Sass
 Ejemplos básicos usando Sass desde cero.
+
 ## CSS
 ### Desventajas de CSS
 * No es un lenguaje de programación como tal.
@@ -7,8 +8,8 @@ Ejemplos básicos usando Sass desde cero.
 * Modularización.
 * Las varibales de CSS vienen con limitaciones.
 
-## SASS
-### Ventajas de SASS
+# SASS
+## Ventajas de SASS
 * Es una super extensión de CSS que lo convierte en un lenguaje de programación, por lo tanto, amplia las capacidades de CSS puro.
 * SASS pasa a ser un preprocesador de CSS. Es decir, procesa previamente el código y lo convierte en CSS mediante la compilación. Ya sea por terminal o con otro software, framework o librería.
 * Para compilar por el terminar, actualemente es necesario utilizar NodeJS y NPM. Mientras que se pueden usar Prepos o GulpJS para compilar los archivos de SASS en CSS.
@@ -16,7 +17,7 @@ Ejemplos básicos usando Sass desde cero.
 * SASS Permite la modularización del código en distintos archivos y/o carpetas que permitan trabajar de una manera ordenada y fácil de entender.
 * Se puede importar a un archivo principal todos los módulos mediante la instrucción import.
 
-### Instalación de SASS
+## Instalación de SASS
 * Primeramente se debe instalar NodeJS, disponible en: [node.js]
 * Luego verificar la instalación de NodeJS y NPM utilizando los comandos:
 
@@ -40,7 +41,7 @@ $ sass --watch style.scss ../css/style.css
 
 * Se debe tener cuidado con la ubicación de los archivos, por lo tanto, se puede entrar a la carpeta de SASS y ejecutar la instrucción anterior desde esa carpeta e indicar la ubicación exacta del archivo de salida. 
 
-### Características importantes de SASS
+## Características importantes de SASS
 * SASS posee distintos tipos de datos, como números, cadenas de texto, colores, boléanos, listas.
 * Las variables se inician con el símbolo de “$” más el nombre de la variable, posteriormente se escribe “:” para poder asignar el valor a la variable, no se debe usar el signo "="
 * Se puede usar @debug mas el nombre de la varibale para ver el valor de dicha variable.
@@ -52,7 +53,20 @@ $ sass --watch style.scss ../css/style.css
 * Para llamar un mixin se utiliza el @include. 
 * Igualmente se puede agregar dentro de un mixin el "&" para repetir el selector padre y se pueden agregar @media para trabajar con los distintos tamaños.
 * Al utilizar los maxin, se pueden enviar parametros como si se trabajara con una funcion culaquiera en JavaScript.
+* Otra importante caracteristica que tiene SASS es que se pueden usar *ciclos repetitivos (for)* o *ciclos condicionales (if-else)*.
+* Para usar el ciclo de repetición for, se debe trabajar con la instrucción:
 
+```sh
+@for <variable> from <expression> to <expression> { ... }
+```
+
+o
+
+
+```sh
+@for <variable> from <expression> through <expression> { ... }
+```
+* se debe utilizar la instrucción "map-get" para tomar los valores de una variable tipo mapa.
 
 
 
