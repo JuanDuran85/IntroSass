@@ -1,0 +1,14 @@
+nav {
+    ul {
+        list-style: none;   
+    }
+    li {
+        list-style-position: outside;
+        display: inline-block;
+        a {
+            text-decoration: none;
+            display: block;
+            padding: 6px 12px;
+        }
+    }
+}
