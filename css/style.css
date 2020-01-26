@@ -1,6 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #a38e78;
+  color: #e74117;
 }
 
 /*# sourceMappingURL=style.css.map */
