@@ -9981,6 +9981,119 @@ nav li a:hover {
   border: 1px solid black;
 }
 
+@keyframes animacion1 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes animacion1 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes animacion1 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes animacion1 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fondo4, .fondo3, .fondo2, .fondo1 {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  /* viewport height, porque en % no agarra por la posicion absoluta */
+  margin: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.fondo1 {
+  background-color: rgba(209, 144, 209, 0.5);
+  animation: animacion1 24s ease 18s infinite;
+  -moz-animation: animacion1 24s ease 18s infinite;
+  -o-animation: animacion1 24s ease 18s infinite;
+  -webkit-animation: animacion1 24s ease 18s infinite;
+}
+
+.fondo2 {
+  background-color: rgba(202, 73, 41, 0.5);
+  background-size: cover;
+  animation: animacion1 24s ease-in-out 12s infinite;
+  -moz-animation: animacion1 24s ease-in-out 12s infinite;
+  -o-animation: animacion1 24s ease-in-out 12s infinite;
+  -webkit-animation: animacion1 24s ease-in-out 12s infinite;
+}
+
+.fondo3 {
+  background-color: rgba(28, 39, 196, 0.5);
+  background-size: cover;
+  animation: animacion1 24s linear 6s infinite;
+  -moz-animation: animacion1 24s linear 6s infinite;
+  -o-animation: animacion1 24s linear 6s infinite;
+  -webkit-animation: animacion1 24s linear 6s infinite;
+}
+
+.fondo4 {
+  background-color: rgba(86, 212, 27, 0.5);
+  animation: animacion1 24s cubic-bezier(1, -0.5, 0.5, 1) 0s infinite;
+  -moz-animation: animacion1 24s cubic-bezier(1, -0.5, 0.5, 1) 0s infinite;
+  -o-animation: animacion1 24s cubic-bezier(1, -0.5, 0.5, 1) 0s infinite;
+  -webkit-animation: animacion1 24s cubic-bezier(1, -0.5, 0.5, 1) 0s infinite;
+}
+
 .cols-5 {
   width: 5%;
 }

@@ -73,7 +73,7 @@ Ahora, para utilizar cualquiera de las clases de Bootstrap tradicionales, solo s
 * Los Mixin sos bloques de códigos que pueden ser utilizados tantas veces sea necesario. Por si solo, no generan estilos sobre el CSS.
 * Para llamar un mixin se utiliza el @include. 
 * Igualmente se puede agregar dentro de un mixin el "&" para repetir el selector padre y aplicar las Pseudo-clases, igualmente se pueden agregar @media para trabajar con los distintos tamaños.
-* Al utilizar los maxin, se pueden enviar parametros como si se trabajara con una funcion culaquiera en JavaScript.
+* Al utilizar los maxin, se pueden enviar parametros como si se trabajara con una funcion culaquiera en JavaScript, por lo que se pueden usar uno o mas parametros e incluso la notacion de ES6 de los "..." tres puntos seguidos.
 * Otra importante caracteristica que tiene SASS es que se pueden usar *ciclos repetitivos (for)* o *ciclos condicionales (if-else)*.
 * Para usar el ciclo de repetición for, se debe trabajar con la instrucción:
 

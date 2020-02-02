@@ -62,6 +62,21 @@
     border: $list1;
 }
 
+@mixin keyframes($nombre) {
+    @keyframes #{$nombre} {
+        @content;
+    }
+    @-webkit-keyframes #{$nombre} {
+        @content;
+    }
+    @-moz-keyframes #{$nombre} {
+        @content;
+    }
+    @-o-keyframes #{$nombre} {
+        @content;
+    }
+}
+
 .btn2 {
     @include boton (600px, auto);
 }
@@ -74,4 +89,74 @@
 .section_cuatro {
     margin: $quincepx;
     @include sombras(100px 10px 5px rgba(112, 83, 83, 0.5), -45px -59px 44px 29px rgba(209,144,209,1));
+}
+
+@include keyframes(animacion1){
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+    
+    30% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+};
+
+%cuadros {
+    position: absolute;
+    width: 50%;
+    height: 50vh; /* viewport height, porque en % no agarra por la posicion absoluta */
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: $numero5;
+}
+
+.fondo1 {
+    @extend %cuadros;
+    background-color: rgba(209,144,209,0.5);
+    animation: animacion1 24s ease 18s infinite;
+    -moz-animation: animacion1 24s ease 18s infinite;
+    -o-animation: animacion1 24s ease 18s infinite;
+    -webkit-animation: animacion1 24s ease 18s infinite;
+}
+
+.fondo2 {
+    @extend %cuadros;
+    background-color: rgba(202, 73, 41, 0.5);
+    background-size: cover;
+    animation: animacion1 24s ease-in-out 12s infinite;
+    -moz-animation: animacion1 24s ease-in-out 12s infinite;
+    -o-animation: animacion1 24s ease-in-out 12s infinite;
+    -webkit-animation: animacion1 24s ease-in-out 12s infinite;
+}
+
+.fondo3 {
+    @extend %cuadros;
+    background-color: rgba(28, 39, 196, 0.5);
+    background-size: cover;
+    animation: animacion1 24s linear 6s infinite;
+    -moz-animation: animacion1 24s linear 6s infinite;
+    -o-animation: animacion1 24s linear 6s infinite;
+    -webkit-animation: animacion1 24s linear 6s infinite;
+}
+
+.fondo4 {
+    @extend %cuadros;
+    background-color: rgba(86, 212, 27, 0.5);
+    animation: animacion1 24s cubic-bezier(1, -0.5, 0.5, 1) 0s infinite;
+    -moz-animation: animacion1 24s cubic-bezier(1, -0.5, 0.5, 1) 0s infinite;
+    -o-animation: animacion1 24s cubic-bezier(1, -0.5, 0.5, 1) 0s infinite;
+    -webkit-animation: animacion1 24s cubic-bezier(1, -0.5, 0.5, 1) 0s infinite;
 }
