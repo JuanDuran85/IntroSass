@@ -54,7 +54,6 @@ $ sass --watch style.scss ../css/style.css
 * Se puede anidar selectores sin importar el tipo, es decir, pueden ser clases o id. Igualmente, se pueden modificar las clases predefinidas por bootstrap.
 * & se utiliza para nombrar y activar las Pseudo-clases de CSS.
 * Las extensiones seran partes del código que no serán compiladas directamente sobre la salida en CSS. Para indicar que una parte del código será una extensión, se debe utilizar el simbolo %"nombre_extension", y al utilizar la instruccion de @extend %nombre_extension, estas seran llamadas e incorporadas como parte del código en CSS al selector seleccionado
-* También se pueden usar mixin, los cuales, son trozos de códigos que se pueden reutilizar.
 * Para instalar Bootstrap. la mejor manera es posicionarse en la carpeta donde se desea utilizar la libreria, posteriormente utilizar los comandos en el terminar:
 
 ```sh
@@ -70,8 +69,10 @@ npm install bootstrap
 * Cuando se trabaja con el Bootstrap mediante SASS, se debe importar primero la libreria completa de Bootstrap antes que los otros archivos de SASS.
 Ahora, para utilizar cualquiera de las clases de Bootstrap tradicionales, solo se agrega la clase dentro de las etiquetas HTML como siempre se hace.
 * Las extensiones seran partes del codigo que no seran compiladas directamente sobre la salida en CSS. Para indicar que una parte del codigo sera una extension, se debe utilizar el sombolo %+nombre_extension, pero al utilizar la instruccion de @extend %nombre_extension, estas seran llamadas e incorporadas como parte del codigo en CSS al selector seleccionado
+* También se pueden usar mixin, los cuales, son trozos de códigos que se pueden reutilizar.
+* Los Mixin sos bloques de códigos que pueden ser utilizados tantas veces sea necesario. Por si solo, no generan estilos sobre el CSS.
 * Para llamar un mixin se utiliza el @include. 
-* Igualmente se puede agregar dentro de un mixin el "&" para repetir el selector padre y se pueden agregar @media para trabajar con los distintos tamaños.
+* Igualmente se puede agregar dentro de un mixin el "&" para repetir el selector padre y aplicar las Pseudo-clases, igualmente se pueden agregar @media para trabajar con los distintos tamaños.
 * Al utilizar los maxin, se pueden enviar parametros como si se trabajara con una funcion culaquiera en JavaScript.
 * Otra importante caracteristica que tiene SASS es que se pueden usar *ciclos repetitivos (for)* o *ciclos condicionales (if-else)*.
 * Para usar el ciclo de repetición for, se debe trabajar con la instrucción:

@@ -13,15 +13,18 @@
     @media screen and (max-width: $tamano){
         background: $color4;
     }
+
+
 }
 
 @mixin efecto ($propiedad){
     width: 120px;
     height: 120px;
     background:$color4;
-    -webkit-transition: width $propiedad;
     transition: width $propiedad;
-
+    -webkit-transition: width $propiedad;
+    -moz-transition: width $propiedad;
+    -o-transition: width $propiedad;
     &:hover {
         width: $numero2;
     }
@@ -29,12 +32,27 @@
     @media screen and (max-width: 596px){
         background: $color1;
     }
+
+    .box2 {
+        width: 100px;
+        height: 100px;
+        background:$color3;
+        transition: width $propiedad;
+        -webkit-transition: width $propiedad;
+        -moz-transition: width $propiedad;
+        -o-transition: width $propiedad;
+
+        &:hover {
+            width: $numero2;
+        }
+    }
 }
 
-.btn {
+.btn2 {
     @include boton (600px);
 }
 
 .box { 
-      @include efecto($numero4); 
+    text-transform: capitalize;
+    @include efecto($numero4); 
 }

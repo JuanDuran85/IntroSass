@@ -9918,7 +9918,7 @@ nav li a:hover {
   text-align: center;
 }
 
-.btn {
+.btn2 {
   display: block;
   padding: 15px;
   margin: auto;
@@ -9926,21 +9926,24 @@ nav li a:hover {
   width: 70%;
   font-size: 35.5px;
 }
-.btn:hover {
+.btn2:hover {
   background: rgba(0, 0, 255, 0.5);
 }
 @media screen and (max-width: 600px) {
-  .btn {
+  .btn2 {
     background: rgba(17, 255, 0, 0.5);
   }
 }
 
 .box {
+  text-transform: capitalize;
   width: 120px;
   height: 120px;
   background: rgba(17, 255, 0, 0.5);
-  -webkit-transition: width 5s;
   transition: width 5s;
+  -webkit-transition: width 5s;
+  -moz-transition: width 5s;
+  -o-transition: width 5s;
 }
 .box:hover {
   width: 70%;
@@ -9949,6 +9952,18 @@ nav li a:hover {
   .box {
     background: red;
   }
+}
+.box .box2 {
+  width: 100px;
+  height: 100px;
+  background: #ab11cd;
+  transition: width 5s;
+  -webkit-transition: width 5s;
+  -moz-transition: width 5s;
+  -o-transition: width 5s;
+}
+.box .box2:hover {
+  width: 70%;
 }
 
 .cols-5 {
