@@ -48,8 +48,26 @@ $ sass --watch style.scss ../css/style.css
 * En SASS las funciones son con “-” y no con “_”.
 * Se puede utilizar la instrucción type-of para saber el tipo de datos que posee una variable.
 * Los mapas son como un objeto en JavaScript, tienen clave y valor.
-* Se pueden anidar selectores facilmente mediante la tecnica nesting.
+* Se pueden anidar selectores facilmente mediante la tecnica nesting. 
+* Los Nesting o Inheritance, son los anidamientos que se pueden usar entre las etiquetas para ir agregando los estilos al HTML. Por lo tanto, en SASS, se debe seguir una secuencia del llamado de las etiquetas una dentro de la otra para lograr el anidamiento y la posterior herencia de las etiquetas.
+* Se puede anidar selectores sin importar el tipo, es decir, pueden ser clases o id. Igualmente, se pueden modificar las clases predefinidas por bootstrap.
+* & se utiliza para nombrar y activar las Pseudo-clases de CSS.
 * También se pueden usar mixin, los cuales, son trozos de códigos que se pueden reutilizar.
+* Para instalar Bootstrap. la mejor manera es posicionarse en la carpeta donde se desea utilizar la libreria, posteriormente utilizar los comandos en el terminar:
+
+```sh
+npm install bootstrap
+```
+
+* Posteriormente se importa el documento en el principal de SASS, utiliando la ruta (ejemplo):
+
+```sh
+@import "bootstrap/node_modules/bootstrap/scss/bootstrap.scss";
+```
+
+* Cuando se trabaja con el Bootstrap mediante SASS, se debe importar primero la libreria completa de Bootstrap antes que los otros archivos de SASS.
+Ahora, para utilizar cualquiera de las clases de Bootstrap tradicionales, solo se agrega la clase dentro de las etiquetas HTML como siempre se hace.
+* Las extensiones seran partes del codigo que no seran compiladas directamente sobre la salida en CSS. Para indicar que una parte del codigo sera una extension, se debe utilizar el sombolo %+nombre_extension, pero al utilizar la instruccion de @extend %nombre_extension, estas seran llamadas e incorporadas como parte del codigo en CSS al selector seleccionado
 * Para llamar un mixin se utiliza el @include. 
 * Igualmente se puede agregar dentro de un mixin el "&" para repetir el selector padre y se pueden agregar @media para trabajar con los distintos tamaños.
 * Al utilizar los maxin, se pueden enviar parametros como si se trabajara con una funcion culaquiera en JavaScript.

@@ -9904,12 +9904,22 @@ nav li a:hover {
   background-color: rgba(17, 255, 0, 0.5);
 }
 
-/*Se puede anidar selectores sin importar el tipo, es decir, pueden ser clases o id. igualmente, se pueden modificar las clases predefinidas por bootstrap*/
+/*Se puede anidar selectores sin importar el tipo, es decir, pueden ser clases o id. Igualmente, se pueden modificar las clases predefinidas por bootstrap*/
 .secion_tercera {
   margin-top: 20px;
 }
 .secion_tercera .alert-primary {
-  font-size: 35.5px;
+  text-transform: uppercase;
+}
+
+/*Las extensiones seran partes del codigo que no seran compiladas directamente sobre la salida en CSS. Para indicar que una parte del codigo sera una extension, se debe utilizar el sombolo %+nombre_extension, pero al utilizar la instruccion de @extend %nombre_extension, estas seran llamadas e incorporadas como parte del codigo en CSS al selector seleccionado*/
+.alert-secondary, .alert-success {
+  font-size: large;
+  text-align: center;
+}
+
+.alert-secondary, .alert-success {
+  font-weight: 500;
 }
 
 .btn {

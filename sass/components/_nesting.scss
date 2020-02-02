@@ -28,6 +28,19 @@ nav {
     margin-top: 20px;
 
     .alert-primary {
-        font-size: $numero3;
+        text-transform: uppercase;
     } 
+}
+
+
+/*Las extensiones seran partes del codigo que no seran compiladas directamente sobre la salida en CSS. Para indicar que una parte del codigo sera una extension, se debe utilizar el sombolo %+nombre_extension, pero al utilizar la instruccion de @extend %nombre_extension, estas seran llamadas e incorporadas como parte del codigo en CSS al selector seleccionado*/
+
+%textos {
+    font-size: $large;
+    text-align: center;
+}
+
+.alert-secondary, .alert-success {
+    @extend %textos;
+    font-weight: 500;
 }
