@@ -53,6 +53,7 @@ $ sass --watch style.scss ../css/style.css
 * Los Nesting o Inheritance, son los anidamientos que se pueden usar entre las etiquetas para ir agregando los estilos al HTML. Por lo tanto, en SASS, se debe seguir una secuencia del llamado de las etiquetas una dentro de la otra para lograr el anidamiento y la posterior herencia de las etiquetas.
 * Se puede anidar selectores sin importar el tipo, es decir, pueden ser clases o id. Igualmente, se pueden modificar las clases predefinidas por bootstrap.
 * & se utiliza para nombrar y activar las Pseudo-clases de CSS.
+* Las extensiones seran partes del código que no serán compiladas directamente sobre la salida en CSS. Para indicar que una parte del código será una extensión, se debe utilizar el simbolo %"nombre_extension", y al utilizar la instruccion de @extend %nombre_extension, estas seran llamadas e incorporadas como parte del código en CSS al selector seleccionado
 * También se pueden usar mixin, los cuales, son trozos de códigos que se pueden reutilizar.
 * Para instalar Bootstrap. la mejor manera es posicionarse en la carpeta donde se desea utilizar la libreria, posteriormente utilizar los comandos en el terminar:
 
