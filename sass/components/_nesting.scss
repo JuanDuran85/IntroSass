@@ -1,3 +1,9 @@
+/*Los Nesting o Inheritance, son los anidamientos que se pueden usar entre las etiquetas para ir agregando los estilos al HTML.
+Por lo tanto, en SASS, se debe seguir una secuencia del llamado de las etiquetas una dentro de la otra para lograr el anidamiento y la posterior herencia de las etiquetas.
+
+& se utiliza para nombrar y activar las Pseudo-clases de CSS.
+*/
+
 nav {
     ul {
         list-style: none;   
@@ -9,6 +15,19 @@ nav {
             text-decoration: none;
             display: block;
             padding: 6px 12px;
+
+            &:hover {
+                background-color: $color4;
+            }
         }
     }
+}
+
+/*Se puede anidar selectores sin importar el tipo, es decir, pueden ser clases o id. Igualmente, se pueden modificar las clases predefinidas por bootstrap*/
+.secion_tercera {
+    margin-top: 20px;
+
+    .alert-primary {
+        font-size: $numero3;
+    } 
 }

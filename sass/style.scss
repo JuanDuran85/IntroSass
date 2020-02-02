@@ -1,3 +1,7 @@
+/*Cuando se trabaja con el Bootstrap mediante SASS, se debe importar primero la libreria completa de Bootstrap antes que los otros archivos de SASS.
+Ahora, para utilizar cualquiera de las clases de Bootstrap tradicionales, solo se agrega la clase dentre de las etiquetas HTML como siempre se hace.
+*/
+@import "bootstrap/node_modules/bootstrap/scss/bootstrap.scss";
 @import "components/reset";
 @import "components/datos";
 @import "components/nesting";
@@ -9,6 +13,7 @@
     font-weight: 400;
 }
 
+/* El @debug permite mostrar el resultado en el terminal en pleno compilador*/
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(247, 232, 229);
