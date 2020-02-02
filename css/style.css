@@ -9918,10 +9918,6 @@ nav li a:hover {
   text-align: center;
 }
 
-.alert-secondary, .alert-success {
-  font-weight: 500;
-}
-
 .btn {
   display: block;
   padding: 15px;

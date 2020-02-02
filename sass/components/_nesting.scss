@@ -40,7 +40,6 @@ nav {
     text-align: center;
 }
 
-.alert-secondary, .alert-success {
+#{$lista_clases} {
     @extend %textos;
-    font-weight: 500;
 }

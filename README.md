@@ -45,6 +45,7 @@ $ sass --watch style.scss ../css/style.css
 * SASS posee distintos tipos de datos, como números, cadenas de texto, colores, boléanos, listas.
 * Las variables se inician con el símbolo de “$” más el nombre de la variable, posteriormente se escribe “:” para poder asignar el valor a la variable, no se debe usar el signo "="
 * Se puede usar @debug mas el nombre de la varibale para ver el valor de dicha variable.
+* La regla @warn muestra el valor de una expresió SaasScript en forma de mensaje de error.
 * En SASS las funciones son con “-” y no con “_”.
 * Se puede utilizar la instrucción type-of para saber el tipo de datos que posee una variable.
 * Los mapas son como un objeto en JavaScript, tienen clave y valor.

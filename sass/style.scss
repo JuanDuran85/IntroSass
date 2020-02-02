@@ -19,6 +19,7 @@ h1 {
     color: rgb(247, 232, 229);
     @debug $numero1;
     @debug type-of($numero1);
+    @warn "Assuming #{$numero1} esta en pixels";
     @debug $texto1;
     @debug type-of($texto1);
     background: $color2;
