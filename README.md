@@ -93,7 +93,12 @@ o
     2. Con list-separator podemos ver el tipo de separación que existe en una variable del tipo lista.
     3. La función *nth* permite seleccionar un valor en especifico de una lista.
     4. Con la función *set-nth* se puede modificar un valor en especifico de una lista de valores o estilos.
-    5. Con la función *join* se pueden unir mas de una lista e indicar el tipo de separador en el caso de ser necesario
+    5. Con la función *join* se pueden unir mas de una lista e indicar el tipo de separador en el caso de ser necesario.
+    6. Con la funcion *append* se puede agregar valores a una lista yadefinida directamente sobre el estilo.
+    7. El index se utiliza para indicar la posicion de un elemento o valor dentro de una lista. El elemento a buscar debe ser exactamente igual al almacenado en la lista. Por lo que regresarà el valor de la posicion donde se encuentre ese valor.
+    8. la funcion *zip* permite concatener distintas listas de variables o valores en una sola linea.
+
+*
 
 
 

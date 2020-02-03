@@ -14,11 +14,6 @@ $color4: hsla(116, 100%, 50%, 0.5);
 $boleano: true;
 $list1: 1px solid black;
 $lista2: valor1, valor2, valor3;
-$map: (
-    valor1: 2px,
-    valor2: solid,
-    valor3: red 
-);
 $large: large;
 $lista_clases: ".alert-secondary", ".alert-success";
 $trescien: 300px;
@@ -33,6 +28,21 @@ $lista6: 1px 2px 3px green, 6px 7px 8px blue, 3px 2px 1px yellow;
 $numero7: 450px;
 $lista7: 10px 20px 20px red,;
 $lista8: 30px 2px 2px blue,;
+$typografia1: Helvetica, Arial, sans-serif;
+$valores1: 20px 2px 10px;
+
+/* datos del tipo map*/
+$map1: (
+    valor1: 2px,
+    valor2: solid,
+    valor3: red 
+);
+
+$map2: (
+    tamano1: 20px,
+    tamano2: 15px,
+    color1: red 
+);
 
 
 

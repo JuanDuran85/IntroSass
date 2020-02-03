@@ -17,3 +17,17 @@
        text-shadow: join($lista7, $lista8, comma);
    }
 }
+
+.seccion_siete {
+    padding-top: 30px;
+    font-family: append($typografia1 , opensans);
+
+    p {
+        text-shadow: zip(
+            10px 30px 5px,
+            $valores1,
+            20px 2px 3px,
+            red blue green
+        );
+    }
+}

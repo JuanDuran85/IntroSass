@@ -10357,6 +10357,14 @@ nav li a:hover {
   text-shadow: 10px 20px 20px red, 30px 2px 2px blue;
 }
 
+.seccion_siete {
+  padding-top: 30px;
+  font-family: Helvetica, Arial, sans-serif, opensans;
+}
+.seccion_siete p {
+  text-shadow: 10px 20px 20px red, 30px 2px 2px blue, 5px 10px 3px green;
+}
+
 .s1 {
   background: rgba(0, 0, 255, 0.5);
   font-weight: 400;
