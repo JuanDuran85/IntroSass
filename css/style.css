@@ -9883,6 +9883,7 @@ h3 {
   padding: 0px;
 }
 
+/* datos del tipo map*/
 /*Los Nesting o Inheritance, son los anidamientos que se pueden usar entre las etiquetas para ir agregando los estilos al HTML.
 Por lo tanto, en SASS, se debe seguir una secuencia del llamado de las etiquetas una dentro de la otra para lograr el anidamiento y la posterior herencia de las etiquetas.
 
@@ -10363,6 +10364,33 @@ nav li a:hover {
 }
 .seccion_siete p {
   text-shadow: 10px 20px 20px red, 30px 2px 2px blue, 5px 10px 3px green;
+}
+
+/* .seccion_siete_p {
+    content: map-keys($map1);
+    content: map-values($map1);
+    content: map-has-key($map2,tamano2);
+    content: map-get($map2, tamano1);
+    content: inspect(map-merge($map1,$map2));
+    content: inspect(map-remove($map2, tamano1));
+} */
+.seccion_siete_p {
+  font-size: 20.5px;
+  line-height: 2.0952380952;
+  line-height: 2;
+  font-weight: 97.1428571429;
+  font-weight: 97;
+  width: 460.5px;
+  height: 100%;
+}
+.seccion_siete_p span {
+  font-size: 20.5px;
+  line-height: 2.0952380952;
+  line-height: 3;
+  color: yellow;
+  font-weight: 650;
+  /* font-size: min(40px,60px);
+  font-weight: max(400,600,100,630); */
 }
 
 .s1 {

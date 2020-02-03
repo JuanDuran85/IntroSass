@@ -31,3 +31,12 @@
         );
     }
 }
+
+/* .seccion_siete_p {
+    content: map-keys($map1);
+    content: map-values($map1);
+    content: map-has-key($map2,tamano2);
+    content: map-get($map2, tamano1);
+    content: inspect(map-merge($map1,$map2));
+    content: inspect(map-remove($map2, tamano1));
+} */

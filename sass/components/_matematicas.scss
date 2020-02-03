@@ -1,0 +1,19 @@
+.seccion_siete_p {
+    font-size: $v1 + $v2 +5;
+    line-height: ($v3 +10px)/$v1;
+    line-height: round(($v3 +10px)/$v1);
+    font-weight: ($v4+20)/$v1;
+    font-weight: floor(($v4+20)/$v1);
+    width: $eq1;
+    height: percentage(1);
+
+    span {
+        font-size: $v1 + $v2 +5;
+        line-height: ($v3 +10px)/$v1;
+        line-height: ceil(($v3 +10px)/$v1);
+        color: $amarillo;
+        font-weight: abs(-650);
+        /* font-size: min(40px,60px);
+        font-weight: max(400,600,100,630); */
+    }
+}

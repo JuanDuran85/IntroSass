@@ -98,7 +98,20 @@ o
     7. El index se utiliza para indicar la posicion de un elemento o valor dentro de una lista. El elemento a buscar debe ser exactamente igual al almacenado en la lista. Por lo que regresarà el valor de la posicion donde se encuentre ese valor.
     8. la funcion *zip* permite concatener distintas listas de variables o valores en una sola linea.
 
-*
+* Tambien se pueden usar funciones predefinidas con las variables del tipo MAP, como lo son:
+    1. map-keys: muestra los nombres de las llaves de una variable tipo map.
+    2. map-values: muestra los valores de las llaves de una varibale tipo map.
+    3. map-has-key: permite determinar si una llave existe en ua varibale del tipo map.
+    4. map-get: se obtiene el valor de una llave en especifica.
+    5. inspect(map-merge): son dos funciones que permiten mostrar las llaves y los valores de varibales del tipo mp.
+    6. inspect(map-remove): se utiliza para remover una llave de la varible del tipo map.
+
+* En SASS tambien se pueden realizar operaciones matematicas básicas. Como suma, resta, multiplicacion y división. Igualmente utilizar funciones predeterminadas como:
+    1. round: redondea el valor para llegar al siguiente superior.
+    2. floor: redondea el valor dependiendo del valor de los decimales.
+    3. percentage: convierte en porcentaje el valor ingresado. 0.1 para 10%. 1 para 100%.
+    4. ceil: redondea el valor dependiendo del valor de los decimales.
+    5. abs: retorna el valor de forma positiva. 
 
 
 
