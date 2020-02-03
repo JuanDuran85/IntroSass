@@ -88,6 +88,12 @@ o
 @for <variable> from <expression> through <expression> { ... }
 ```
 * se debe utilizar la instrucción "map-get" para tomar los valores de una variable tipo mapa.
+* Existen diversas funciones predefinidas en SASS, como el caso de:
+    1. *length*: que se utiliza para ver la cantidad de valores disponibles en una lista.
+    2. Con list-separator podemos ver el tipo de separación que existe en una variable del tipo lista.
+    3. La función *nth* permite seleccionar un valor en especifico de una lista.
+    4. Con la función *set-nth* se puede modificar un valor en especifico de una lista de valores o estilos.
+    5. Con la función *join* se pueden unir mas de una lista e indicar el tipo de separador en el caso de ser necesario
 
 
 
