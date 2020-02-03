@@ -9973,10 +9973,10 @@ nav li a:hover {
   padding: 15px;
   background-color: yellow;
   box-shadow: 100px 10px 5px rgba(112, 83, 83, 0.5), -45px -59px 44px 29px #d190d1;
-  overflow: auto;
   -webkit-box-shadow: 100px 10px 5px rgba(112, 83, 83, 0.5), -45px -59px 44px 29px #d190d1;
   -moz-box-shadow: 100px 10px 5px rgba(112, 83, 83, 0.5), -45px -59px 44px 29px #d190d1;
   -o-box-shadow: 100px 10px 5px rgba(112, 83, 83, 0.5), -45px -59px 44px 29px #d190d1;
+  overflow: auto;
   font-size: 20px;
   border: 1px solid black;
 }
@@ -10336,6 +10336,27 @@ nav li a:hover {
     width: 100%;
   }
 }
+.seccion_seis {
+  /* background: length(lista4); la propiedad length se utiliza para ver la cantidad de valores disponibles en una lista*/
+  background: 4;
+  /* Con list-separator podemos ver el tipo de separación que existe en una variable del tipo lista*/
+  background: comma;
+  background: space;
+  /*La propiedad nth permite seleccionar un valor en especifico de una lista*/
+  box-shadow: 6px 7px 8px blue;
+  -webkit-box-shadow: 1px 2px 3px green;
+  -moz-box-shadow: 6px 7px 8px blue;
+  -o-box-shadow: 3px 2px 1px yellow;
+  margin-top: 450px;
+  padding-top: 3px;
+  /* con la propiedad set-nth se puede modificar un valor en especifico de una lista de valores o estilos */
+  border-top: 1px dotted black;
+  /* con join se pueden unir mas de una lista e indicar el tipo de separador en el caso de ser necesario */
+}
+.seccion_seis h3 {
+  text-shadow: 10px 20px 20px red, 30px 2px 2px blue;
+}
+
 .s1 {
   background: rgba(0, 0, 255, 0.5);
   font-weight: 400;

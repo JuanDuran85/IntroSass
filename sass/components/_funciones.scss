@@ -1,0 +1,19 @@
+.seccion_seis {
+   /* background: length(lista4); la propiedad length se utiliza para ver la cantidad de valores disponibles en una lista*/ 
+   background: length($lista4); 
+   /* Con list-separator podemos ver el tipo de separación que existe en una variable del tipo lista*/
+   background: list-separator($lista6);
+   background: list-separator($lista4);
+   /*La propiedad nth permite seleccionar un valor en especifico de una lista*/box-shadow: nth($lista6,2);
+   -webkit-box-shadow: nth($lista6,1);
+   -moz-box-shadow: nth($lista6,2);
+   -o-box-shadow: nth($lista6,3);
+   margin-top: $numero7;
+   padding-top: nth($lista4,3);
+   /* con la propiedad set-nth se puede modificar un valor en especifico de una lista de valores o estilos */
+   border-top: set-nth($list1,2,dotted);
+   /* con join se pueden unir mas de una lista e indicar el tipo de separador en el caso de ser necesario */
+   h3{
+       text-shadow: join($lista7, $lista8, comma);
+   }
+}
