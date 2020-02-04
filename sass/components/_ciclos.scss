@@ -1,11 +1,11 @@
-@for $i from 1 through 20 {
+@for $i from 1 through 10 {
     .cols-#{$i * 5} {
         width: $i * 5%;
     }
 }
 
 @media screen and (max-width: map-get($puntocorte,m)){
-    @for $i from 1 through 20 {
+    @for $i from 1 through 10 {
         .cols-m-#{$i * 5} {
             width: $i * 5%;
         }
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: map-get($puntocorte,l)){
-    @for $i from 1 through 20 {
+    @for $i from 1 through 10 {
         .cols-l-#{$i * 5} {
             width: $i * 5%;
         }
@@ -41,5 +41,14 @@
             color: $color4;
             content: "falso para if";
         }
+    }
+}
+
+$cantidad: length($lista9);
+
+@for $i from 1 through $cantidad {
+    #{nth($lista9,$i)} {
+        color: nth($colores,$i);
+        font-weight: nth($valores2,$i);
     }
 }
