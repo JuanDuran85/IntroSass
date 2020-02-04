@@ -52,3 +52,34 @@ $cantidad: length($lista9);
         font-weight: nth($valores2,$i);
     }
 }
+
+@each $clases in $secciones {
+    $ecua2: 20px+random(10);
+    .#{$clases} {
+        font-size: $ecua2;
+    }
+}
+
+@each $var,$font in (h1, 20px),
+                    (h2, 30px),
+                    (h3, 25px) 
+{
+    #{$var}{
+        font-size: $font;
+    }
+}
+
+@each $var1,$var2 in $map3 {
+    .#{$var1}{
+        font-weight: $var2;
+    }
+}
+
+@while $index <=3 {
+    .section_diez_p#{$index} {
+        font-size: 16px;
+        font-weight: nth($valores3,$index);
+    }
+    $index: $index + 1;
+}
+

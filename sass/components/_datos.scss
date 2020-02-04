@@ -1,4 +1,4 @@
-//varibales y tipos de datos
+//varibales y tipos de datos generales
 $numero1: 20;
 $numero2: 70%;
 $numero3: 35.5px;
@@ -38,6 +38,11 @@ $eq1: 450px + $v1;
 $lista9: h1,h2,h3,h4,h5,h6;
 $colores: blue, red, green, yellow, peru, orange;
 $valores2: 100px, 200px, 120px, 300px, 340px, 150px;
+$secciones: section_ocho_p1, section_ocho_p2, section_ocho_p3;
+$secciones: section_nueve_p1, section_nueve_p2, section_nueve_p3;
+$colores2: blue, red, green;
+$index: 1;
+$valores3: 400, 500, 650;
 
 
 /* datos del tipo map*/
@@ -51,6 +56,12 @@ $map2: (
     tamano1: 20px,
     tamano2: 15px,
     color1: red 
+);
+
+$map3: (
+    section_nueve_p1: 200,
+    section_nueve_p2: 150,
+    section_nueve_p3: 300
 );
 
 $puntocorte: (

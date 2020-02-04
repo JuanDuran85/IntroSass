@@ -10252,6 +10252,57 @@ h6 {
   font-weight: 150px;
 }
 
+.section_nueve_p1 {
+  font-size: 24px;
+}
+
+.section_nueve_p2 {
+  font-size: 22px;
+}
+
+.section_nueve_p3 {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.section_nueve_p1 {
+  font-weight: 200;
+}
+
+.section_nueve_p2 {
+  font-weight: 150;
+}
+
+.section_nueve_p3 {
+  font-weight: 300;
+}
+
+.section_diez_p1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section_diez_p2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section_diez_p3 {
+  font-size: 16px;
+  font-weight: 650;
+}
+
 .seccion_seis {
   /* background: length(lista4); la propiedad length se utiliza para ver la cantidad de valores disponibles en una lista*/
   background: 4;
