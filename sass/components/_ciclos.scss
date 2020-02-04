@@ -1,8 +1,3 @@
-$puntocorte: (
-    m: 640px,
-    l: 1024px
-);
-
 @for $i from 1 through 20 {
     .cols-#{$i * 5} {
         width: $i * 5%;
@@ -23,4 +18,28 @@ $puntocorte: (
             width: $i * 5%;
         }
     }        
+}
+
+@if map-get($puntocorte,m) == 6440px {
+    .seccion_siete_p {
+        span {
+            font-size: $v1;
+            content: "verdadero para 640px";
+        }
+    }
+} @else if map-get($puntocorte,l) != 640px {
+    .seccion_siete_p {
+        span {
+            font-size: $v1+10px;
+            content: "verdadero para 1024px";
+        }
+    }
+} @else {
+    .seccion_siete_p {
+        span {
+            font-size: $v1+$v3+1px;
+            color: $color4;
+            content: "falso para if";
+        }
+    }
 }

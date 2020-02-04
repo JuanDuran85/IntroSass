@@ -10337,6 +10337,11 @@ nav li a:hover {
     width: 100%;
   }
 }
+.seccion_siete_p span {
+  font-size: 20.5px;
+  content: "verdadero para 1024px";
+}
+
 .seccion_seis {
   /* background: length(lista4); la propiedad length se utiliza para ver la cantidad de valores disponibles en una lista*/
   background: 4;

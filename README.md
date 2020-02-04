@@ -113,6 +113,8 @@ o
     4. ceil: redondea el valor dependiendo del valor de los decimales.
     5. abs: retorna el valor de forma positiva. 
 
+* En SASS, al igual que en otros lenguajes de programacion, se puede utilizar los ciclos comparativos con el if, else if y else.
+
 
 
 
