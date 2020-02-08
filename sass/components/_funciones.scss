@@ -40,3 +40,20 @@
     content: inspect(map-merge($map1,$map2));
     content: inspect(map-remove($map2, tamano1));
 } */
+
+body {
+    @function nombre_funcion ($lista10, $lista11) {
+        $longitud1: length($lista10);
+        $longitud2: length($lista11);
+
+        @if $longitud1 == $longitud2 {
+            @return "Las listas tienen la misma longitud";
+        } @else {
+            @return "las listas no tienen la misma longitud";
+        }
+    }
+}
+
+.section_diez::before {
+    content: nombre_funcion($valor_lista1, $valor_lista2);
+}

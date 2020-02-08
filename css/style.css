@@ -10253,15 +10253,15 @@ h6 {
 }
 
 .section_nueve_p1 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .section_nueve_p2 {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .section_nueve_p3 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 h1 {
@@ -10340,6 +10340,10 @@ h3 {
     content: inspect(map-merge($map1,$map2));
     content: inspect(map-remove($map2, tamano1));
 } */
+.section_diez::before {
+  content: nombre_funcion(20px, 30px, 40px, 50px, black, red, blue, yellow);
+}
+
 .seccion_siete_p {
   font-size: 20.5px;
   line-height: 2.0952380952;
