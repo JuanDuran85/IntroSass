@@ -10253,11 +10253,11 @@ h6 {
 }
 
 .section_nueve_p1 {
-  font-size: 28px;
+  font-size: 27px;
 }
 
 .section_nueve_p2 {
-  font-size: 24px;
+  font-size: 27px;
 }
 
 .section_nueve_p3 {
@@ -10340,8 +10340,8 @@ h3 {
     content: inspect(map-merge($map1,$map2));
     content: inspect(map-remove($map2, tamano1));
 } */
-.section_diez::before {
-  content: nombre_funcion(20px, 30px, 40px, 50px, black, red, blue, yellow);
+.section_diez::after {
+  content: "Las listas tienen la misma longitud";
 }
 
 .seccion_siete_p {
