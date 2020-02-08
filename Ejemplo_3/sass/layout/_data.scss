@@ -2,3 +2,41 @@ $cero: 0;
 $none: none;
 $tamano18: 18px;
 $cuatrociento: 400;
+$ochocientos: 800;
+$tamano20: 20px;
+$negro: black;
+$chocolate:  chocolate;
+$trespx: 3px;
+$diezpx: 10px;
+$quincepx: 15px;
+$azul: blue;
+$fondo1: rgba(120,220,012, 0.5);
+$textoFamilia: Arial, Helvetica, sans-serif;
+$colormapa: (
+    green:(
+        background: #7aade0,
+        Hover: #60317c
+    ),
+    blue:(
+        background: #c9c632,
+        Hover: #11be99        
+    ),
+    red: (
+        background: #a8546d,
+        Hover: #123456
+    )
+);
+$colormapa2: (
+    green2:(
+        background: #b3477d,
+        Hover: #9b67b9
+    ),
+    blue2:(
+        background: #1e8d49,
+        Hover: #330e63        
+    ),
+    red2: (
+        background: #c2b437,
+        Hover: #924886
+    )
+);

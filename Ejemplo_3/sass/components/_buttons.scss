@@ -1,18 +1,59 @@
 .button {
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $textoFamilia;
     font-size: $tamano18;
     font-weight: $cuatrociento;
-    background: rgba(120,220,012, 0.5);
-    color: blue;
-    padding: 10px 15px;
-    border-radius: 3px;
-    transition: all 0.2s;
+    background: $fondo1;
+    color: $azul;
+    padding: $diezpx $quincepx;
+    border-radius: $trespx;
+    transition: all 0.7s;
 
     &:hover {
-        background-color: chocolate;
-        color: black;
-        font-weight: 800;
-        font-size: 20px;
+        background-color: $chocolate;
+        color: $negro;
+        font-weight: $ochocientos;
+        font-size: $tamano20;
+    }
+}
+
+@each $color, $mapa in $colormapa {
+    .button.#{$color} {
+        background: rgb(82, 53, 85);
+    }
+}
+
+/*Usando Each anidados para entrar dentro de un sub mapa*/
+@each $color, $mapa in $colormapa {
+    @each $color2, $valor in $mapa {
+        @if ($color2 == 'background') {
+            .button.#{$color}{
+                background: $valor;
+            }
+        }
+        @else {
+            .button.#{$color}{
+                &:hover {
+                    background: $valor;
+                }
+            }
+        }
+    }
+}
+
+@each $color2, $mapa2 in $colormapa2 {
+    @each $color3, $valor2 in $mapa2 {
+        @if ($color3 == 'background') {
+            .button.#{$color2}{
+                background: $valor2;
+            }
+        }
+        @else {
+            .button.#{$color2}{
+                &:hover {
+                    background: $valor2;
+                }
+            }
+        }
     }
 }
