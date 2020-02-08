@@ -65,4 +65,250 @@ main > section {
   width: 8.3333333333%;
 }
 
+@media screen and (min-width: 100px) {
+  .col-xs-1 > section {
+    width: 100%;
+  }
+
+  .col-xs-2 > section {
+    width: 50%;
+  }
+
+  .col-xs-3 > section {
+    width: 33.3333333333%;
+  }
+
+  .col-xs-4 > section {
+    width: 25%;
+  }
+
+  .col-xs-5 > section {
+    width: 20%;
+  }
+
+  .col-xs-6 > section {
+    width: 16.6666666667%;
+  }
+
+  .col-xs-7 > section {
+    width: 14.2857142857%;
+  }
+
+  .col-xs-8 > section {
+    width: 12.5%;
+  }
+
+  .col-xs-9 > section {
+    width: 11.1111111111%;
+  }
+
+  .col-xs-10 > section {
+    width: 10%;
+  }
+
+  .col-xs-11 > section {
+    width: 9.0909090909%;
+  }
+
+  .col-xs-12 > section {
+    width: 8.3333333333%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .col-sd-1 > section {
+    width: 100%;
+  }
+
+  .col-sd-2 > section {
+    width: 50%;
+  }
+
+  .col-sd-3 > section {
+    width: 33.3333333333%;
+  }
+
+  .col-sd-4 > section {
+    width: 25%;
+  }
+
+  .col-sd-5 > section {
+    width: 20%;
+  }
+
+  .col-sd-6 > section {
+    width: 16.6666666667%;
+  }
+
+  .col-sd-7 > section {
+    width: 14.2857142857%;
+  }
+
+  .col-sd-8 > section {
+    width: 12.5%;
+  }
+
+  .col-sd-9 > section {
+    width: 11.1111111111%;
+  }
+
+  .col-sd-10 > section {
+    width: 10%;
+  }
+
+  .col-sd-11 > section {
+    width: 9.0909090909%;
+  }
+
+  .col-sd-12 > section {
+    width: 8.3333333333%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .col-md-1 > section {
+    width: 100%;
+  }
+
+  .col-md-2 > section {
+    width: 50%;
+  }
+
+  .col-md-3 > section {
+    width: 33.3333333333%;
+  }
+
+  .col-md-4 > section {
+    width: 25%;
+  }
+
+  .col-md-5 > section {
+    width: 20%;
+  }
+
+  .col-md-6 > section {
+    width: 16.6666666667%;
+  }
+
+  .col-md-7 > section {
+    width: 14.2857142857%;
+  }
+
+  .col-md-8 > section {
+    width: 12.5%;
+  }
+
+  .col-md-9 > section {
+    width: 11.1111111111%;
+  }
+
+  .col-md-10 > section {
+    width: 10%;
+  }
+
+  .col-md-11 > section {
+    width: 9.0909090909%;
+  }
+
+  .col-md-12 > section {
+    width: 8.3333333333%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .col-lg-1 > section {
+    width: 100%;
+  }
+
+  .col-lg-2 > section {
+    width: 50%;
+  }
+
+  .col-lg-3 > section {
+    width: 33.3333333333%;
+  }
+
+  .col-lg-4 > section {
+    width: 25%;
+  }
+
+  .col-lg-5 > section {
+    width: 20%;
+  }
+
+  .col-lg-6 > section {
+    width: 16.6666666667%;
+  }
+
+  .col-lg-7 > section {
+    width: 14.2857142857%;
+  }
+
+  .col-lg-8 > section {
+    width: 12.5%;
+  }
+
+  .col-lg-9 > section {
+    width: 11.1111111111%;
+  }
+
+  .col-lg-10 > section {
+    width: 10%;
+  }
+
+  .col-lg-11 > section {
+    width: 9.0909090909%;
+  }
+
+  .col-lg-12 > section {
+    width: 8.3333333333%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-xl-1 > section {
+    width: 100%;
+  }
+
+  .col-xl-2 > section {
+    width: 50%;
+  }
+
+  .col-xl-3 > section {
+    width: 33.3333333333%;
+  }
+
+  .col-xl-4 > section {
+    width: 25%;
+  }
+
+  .col-xl-5 > section {
+    width: 20%;
+  }
+
+  .col-xl-6 > section {
+    width: 16.6666666667%;
+  }
+
+  .col-xl-7 > section {
+    width: 14.2857142857%;
+  }
+
+  .col-xl-8 > section {
+    width: 12.5%;
+  }
+
+  .col-xl-9 > section {
+    width: 11.1111111111%;
+  }
+
+  .col-xl-10 > section {
+    width: 10%;
+  }
+
+  .col-xl-11 > section {
+    width: 9.0909090909%;
+  }
+
+  .col-xl-12 > section {
+    width: 8.3333333333%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

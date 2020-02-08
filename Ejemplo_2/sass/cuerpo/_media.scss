@@ -1,0 +1,10 @@
+@each $media, $valor in $mapa {
+    @media screen and (min-width: $media + px) {
+        @for $i from 1 through 12 {
+            $maximo: 100% / $i;
+            .col-#{$valor}-#{$i} > section {
+                width: $maximo;
+            }
+        }
+    }
+}
