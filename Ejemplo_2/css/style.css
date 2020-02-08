@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Utilizando el simbolo ">" se puede llamar a todos los hijos del padre en un selector*/
+main > section {
+  background-color: rgba(233, 21, 45, 0.5);
+  height: 30px;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */

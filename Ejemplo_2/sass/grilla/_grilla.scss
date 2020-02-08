@@ -1,0 +1,7 @@
+/* Utilizando el simbolo ">" se puede llamar a todos los hijos del padre en un selector*/
+main > section {
+    background-color: rgba(233,21,45,0.5);
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+}
