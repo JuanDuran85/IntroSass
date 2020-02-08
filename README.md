@@ -62,7 +62,7 @@ npm install bootstrap
 
 * Posteriormente se importa el documento en el principal de SASS, utiliando la ruta (ejemplo):
 
-```sh
+```sass
 @import "bootstrap/node_modules/bootstrap/scss/bootstrap.scss";
 ```
 
@@ -77,14 +77,12 @@ Ahora, para utilizar cualquiera de las clases de Bootstrap tradicionales, solo s
 * Otra importante caracteristica que tiene SASS es que se pueden usar *ciclos repetitivos, como: (for), (each), (while)* o *ciclos condicionales (if-else)*.
 * Para usar el ciclo de repetición for, se debe trabajar con la instrucción:
 
-```sh
+```sass
 @for <variable> from <expression> to <expression> { ... }
 ```
-
 o
 
-
-```sh
+```sass
 @for <variable> from <expression> through <expression> { ... }
 ```
 * se debe utilizar la instrucción "map-get" para tomar los valores de una variable tipo mapa.
@@ -113,7 +111,11 @@ o
     4. ceil: redondea el valor dependiendo del valor de los decimales.
     5. abs: retorna el valor de forma positiva. 
 
+* Otras de las caracteristicas importantes de SASS, es la utilizacion de funciones con argumentos o parametros definidos por el programador. Estas trabajan igual que en distintos lenguajes de programacion, como JavaScript. Ejemplo:
 
+```sass
+@function nombre_funcion ($parametro1, $parametro2) { ... }
+```
 
 
 
