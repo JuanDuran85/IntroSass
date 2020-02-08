@@ -1,0 +1,6 @@
+@for $i from 1 through $maximus {
+    $grilla12: 100% / $i;
+    .grilla-#{$i} > section{
+        width: $grilla12;
+    }
+}

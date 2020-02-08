@@ -6,12 +6,63 @@
   text-decoration: none;
 }
 
+/* realizando una grilla manualmente son bootstrap o display grid/flex*/
 /* Utilizando el simbolo ">" se puede llamar a todos los hijos del padre en un selector*/
 main > section {
   background-color: rgba(233, 21, 45, 0.5);
   height: 30px;
   font-size: 20px;
   border: 1px solid black;
+  text-align: center;
+  float: left;
+}
+
+.grilla-1 > section {
+  width: 100%;
+}
+
+.grilla-2 > section {
+  width: 50%;
+}
+
+.grilla-3 > section {
+  width: 33.3333333333%;
+}
+
+.grilla-4 > section {
+  width: 25%;
+}
+
+.grilla-5 > section {
+  width: 20%;
+}
+
+.grilla-6 > section {
+  width: 16.6666666667%;
+}
+
+.grilla-7 > section {
+  width: 14.2857142857%;
+}
+
+.grilla-8 > section {
+  width: 12.5%;
+}
+
+.grilla-9 > section {
+  width: 11.1111111111%;
+}
+
+.grilla-10 > section {
+  width: 10%;
+}
+
+.grilla-11 > section {
+  width: 9.0909090909%;
+}
+
+.grilla-12 > section {
+  width: 8.3333333333%;
 }
 
 /*# sourceMappingURL=style.css.map */
